@@ -1,0 +1,45 @@
+{
+    "name": "squarenetmedia/auth",
+    "description": "Reusable User Registration and Login Components for all SquareNetMedia Projects",
+    "keywords": [
+        "auth",
+        "authentication",
+        "squarenetmedia",
+        "livewire",
+        "laravel"
+    ],
+    "homepage": "https://www.squarenetmedia.com",
+    "support": {
+        "issues": "https://github.com/SquareNetMedia/Auth/issues",
+        "source": "https://github.com/SquareNetMedia/Auth/"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/squarenetmedia"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/squarenetmedia"
+        },
+        {
+            "type": "revolut",
+            "url": "https://revolut.me/sqnetmedia"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Squarenetmedia\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SquareNetMedia",
+            "email": "info@squarenetmedia.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
